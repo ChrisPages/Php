@@ -5,7 +5,7 @@
 </head>
 <body >
 
-<form method="_POST" id="Enjoy" >
+<form method="_POST" >
 Primer Numero <input type="text" name = "var1" value="">
 Segundo Numero<input type="text" name = "var2" value="">
 <input type="submit" value="Enviar"/>
@@ -16,15 +16,21 @@ $a=$_GET['var1'];
 $b=$_GET['var2'];
 $mult=$a*$b;	
 $to="christian_3601@hotmail.com";
-$subject="Resultados";
-$message=$mult;
+$subject="CHRISTIAN OSWALDO MARTINEZ PAGES";
+$message="
+			El primer numero es,$a;
+			El segundo numero es,$b;
+			El resultado es, $mult;
+			El link del repositorio es: https://github.com/ChrisPages/Php
+			El link de la pagina: http://alphadesign.esy.es/christianpages/calculo.php
+			";
 
-
-mail('christian_3601@hotmail.com', $subject,$message);
+mail('christian_3601@hotmail.com',$subject,$message)
 
 ?>
 	
 
 </body>
 </html>
+
 
