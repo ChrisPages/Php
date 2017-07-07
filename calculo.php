@@ -15,7 +15,7 @@ Segundo Numero<input type="text" name = "var2" value="">
 $a=$_GET['var1'];
 $b=$_GET['var2'];
 $mult=$a*$b;	
-$to="christian_3601@hotmail.com";
+$to="software.realize.101@gmail.com";
 $subject="CHRISTIAN OSWALDO MARTINEZ PAGES";
 $message="
 			El primer numero es,$a;
